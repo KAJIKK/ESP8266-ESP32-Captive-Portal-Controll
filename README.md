@@ -87,17 +87,22 @@ Tested on ESP8266EX with 4MB flash.
 
 ---
 
+
+
 ## 🔧 Project Structure
-/ESP_CaptivePortal/
-├── main.ino # Main setup & loop
-├── auth.ino # Cookie auth
-├── ui.ino # You would never guess what this file does
-├── users.ino # User management (admin-only)
-├── settings.ino # System settings + restart endpoint (admin-only)
-├── storage.ino
-├── portal.ino # Captive portal logic
-├── ota.ino # ArduinoOTA setup & restart logic
-└── debug.ino # Debug info and cookie inspector
+
+    /ESP_CaptivePortal/
+    ├── main.ino # Main setup & loop
+    ├── auth.ino # Cookie auth
+    ├── ui.ino # You would never guess what this file does
+    ├── users.ino # User management (admin-only)
+    ├── settings.ino # System settings + restart endpoint (admin-only)
+    ├── storage.ino
+    ├── portal.ino # Captive portal logic
+    ├── ota.ino # ArduinoOTA setup & restart logic
+    └── debug.ino # Debug info and cookie inspector
+
+
 
 
 ---
